@@ -41,6 +41,8 @@
 			$row['sheet_y'],
 			calc_img_has($row),
 			0,
+            $row['category'],
+            $row['sort_order']
 		);
 		if ($row['text']){
 			$out[$key][] = $row['text'];
